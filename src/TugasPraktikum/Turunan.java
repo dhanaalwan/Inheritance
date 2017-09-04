@@ -9,9 +9,13 @@ package TugasPraktikum;
  *
  * @author Dna
  */
-public class Induk {
-    public void test(){
-        System.out.println("Method di dalam kelas Induk");
+class Turunan extends Induk{
+public void test(String s){
+System.out.println("Method di dalam kelas Turunan");
+System.out.println("s :\"" + s + "\"");
+}
+public void test(){
+        System.out.println("method override di dalam kelas turunan");
     }
 }
 

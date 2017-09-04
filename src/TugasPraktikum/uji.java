@@ -9,9 +9,14 @@ package TugasPraktikum;
  *
  * @author Dna
  */
-public class Induk {
-    public void test(){
-        System.out.println("Method di dalam kelas Induk");
+public class uji {
+    public static void main(String[] args){
+        Induk a =new Induk();
+        Turunan b = new Turunan();
+        
+        a.test();
+        b.test();
+        b.test("Dhanaaa");
     }
+    
 }
-
